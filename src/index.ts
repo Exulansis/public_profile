@@ -72,6 +72,7 @@ async function generateCredentialOffer(vault: IVaultedKeyProvider, pass: string)
         asynchronous: false // Currently Unused
       },
       renderInfo: {
+        renderAs: 'document',
         background: {
           url: '', // URL to jpg, png, gif
           color: '' // Hex encoded color, e.g. #ffffff (if url is present, the image will be rendered instead)
